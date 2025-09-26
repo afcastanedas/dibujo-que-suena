@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dibujo que suena</title>
+  <!-- P5.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+  <!-- Tone.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/tone@14.8.49/build/Tone.min.js"></script>
+  <style>
+    body { margin: 0; background: #181818; color: #fff; font-family: sans-serif; }
+    #defaultCanvas0 { display: block; margin: 0 auto; background: #222; border-radius: 12px; box-shadow: 0 4px 32px #0008; }
+    .info { text-align: center; margin: 1em 0; }
+    .btn { background: #ff0080; color: #fff; border: none; padding: 0.7em 1.5em; border-radius: 8px; font-size: 1.1em; cursor: pointer; margin: 0.5em; }
+    .btn:active { background: #ff66b2; }
+  </style>
+</head>
+<body>
+  <div class="info">
+    <h1>Dibujo que suena</h1>
+    <p>Dibuja con el mouse y escucha cómo tu trazo se convierte en música de sintetizador estilo 80s.</p>
+    <button class="btn" onclick="clearCanvas()">Limpiar</button>
+  </div>
+  <script src="sketch.js"></script>
+</body>
+</html>
